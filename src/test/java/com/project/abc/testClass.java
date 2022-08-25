@@ -47,6 +47,13 @@ public class testClass {
 		Assert.assertEquals(expectedResult, obtainedResult);
 //		System.out.println(Assert.assertEquals(expectedResult, obtainedResult));
 	}
+
+	@Test
+	public void testCaseNew() {
+		String expectedResult = "1st class";
+		String obtainedResult = obj.logic(88);
+		Assert.assertEquals(expectedResult, obtainedResult);
+	}
 	
 	@After
 	public void performingAfter() {
